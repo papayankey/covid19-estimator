@@ -67,9 +67,6 @@ const Form = () => {
           data-period-type
           {...formik.getFieldProps('periodType')}
         >
-          <option value="select period type" disabled>
-            select period type
-          </option>
           <option value="days">days</option>
           <option value="weeks">weeks</option>
           <option value="months">months</option>
