@@ -9,7 +9,7 @@ function App() {
   return (
     <div
       className="d-flex flex-column justify-content-between"
-      style={{ minHeight: '100vh' }}
+      style={{ minHeight: '100vh', overflowX: 'hidden' }}
     >
       <Navbar />
       <div className="container">
@@ -46,11 +46,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div
-        className="bg-dark text-white d-flex justify-content-center align-items-center h-10"
-      >
-        made with luv by @iambenbright
-      </div>
+      <div></div>
     </div>
   );
 }
