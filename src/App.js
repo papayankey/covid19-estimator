@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 import Navbar from './component/Navbar';
 import Form from './component/EstimatorForm';
@@ -16,8 +15,8 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <div className="card mb-5 border-dark">
-              <div className="card-header bg-dark text-white text-center font-weight-bold text-uppercase">
+            <div className="card mb-5">
+              <div className="card-header text-center font-weight-bold text-uppercase">
                 estimator form
               </div>
               <div className="card-body">
@@ -26,8 +25,8 @@ function App() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card border-info text-white mb-5">
-              <div className="card-header bg-info text-center font-weight-bold text-uppercase">
+            <div className="card border-warning text-body mb-5">
+              <div className="card-header bg-warning text-center font-weight-bold text-uppercase">
                 impact cases
               </div>
               <div className="card-body">
@@ -48,8 +47,7 @@ function App() {
         </div>
       </div>
       <div
-        className="bg-dark text-white d-flex justify-content-center align-items-center"
-        style={{ height: '50px' }}
+        className="bg-dark text-white d-flex justify-content-center align-items-center h-10"
       >
         made with luv by @iambenbright
       </div>

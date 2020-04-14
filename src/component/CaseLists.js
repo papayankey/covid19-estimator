@@ -2,7 +2,7 @@ import React from 'react';
 
 function CasesList() {
   return (
-    <ul className="list-group list-group-flush text-dark">
+    <ul className="list-group list-group-flush text-body">
       <li className="list-group-item p-0 mb-4 border-bottom-0 d-flex justify-content-between">
         <p>Currently Infected</p>
         <p className="text-right mb-1 font-weight-bold">2324566</p>
