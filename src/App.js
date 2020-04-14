@@ -16,8 +16,8 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <div className="card mb-5">
-              <div className="card-header text-center font-weight-bold text-uppercase">
+            <div className="card mb-5 border-dark">
+              <div className="card-header bg-dark text-white text-center font-weight-bold text-uppercase">
                 estimator form
               </div>
               <div className="card-body">
@@ -38,7 +38,7 @@ function App() {
           <div className="col-md-4">
             <div className="card border-danger text-white mb-5">
               <div className="card-header bg-danger text-center font-weight-bold text-uppercase">
-                sever impact cases
+                severe impact cases
               </div>
               <div className="card-body">
                 <SevereImpactCases />
